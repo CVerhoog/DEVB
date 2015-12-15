@@ -1,0 +1,15 @@
+0 update T1 A 2 -3
+1 update T2 B 0 3
+2 commit T1
+3 end T1
+4 update T2 A -3 -1
+5 update T3 C 3 -1
+6 update T2 A -1 0
+7 BeginCheckpoint
+8 EndCheckpoint(T1,3,C)(T2,6,P)(T3,5,P)(A,4)(B,1)(C,5)
+9 commit T2
+10 end T2
+11 update T3 A 0 3 
+12 update T3 C -1 1
+13 commit T3
+14 end T3

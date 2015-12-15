@@ -1,0 +1,166 @@
+2015-09-09 11:01:18 ERROR  : ERROR:  relation "Trainer" already exists
+2015-09-16 09:14:41 ERROR  : ERROR:  syntax error at or near "CONSTRAINT"
+LINE 6:   CONSTRAINT "Mounts_Weapons_fk" FOREIGN KEY (weaponName) RE...
+          ^
+2015-09-16 09:19:46 ERROR  : ERROR:  syntax error at or near "CONSTRAINT"
+LINE 7:   CONSTRAINT "name" PRIMARY KEY ("name")
+          ^
+2015-09-16 09:20:25 ERROR  : ERROR:  multiple primary keys for table "Weapons" are not allowed
+LINE 7:   CONSTRAINT "name" PRIMARY KEY ("name")
+          ^
+2015-09-16 09:20:43 ERROR  : ERROR:  relation "id" already exists
+2015-09-16 09:22:59 ERROR  : ERROR:  syntax error at or near "CONSTRAINT"
+LINE 6:   CONSTRAINT "Mounts_Weapons_fk" FOREIGN KEY (weaponName) RE...
+          ^
+2015-09-16 09:23:17 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:24:04 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:24:12 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:24:55 ERROR  : ERROR:  syntax error at or near "serial"
+LINE 3:   "shipid" serial NOT NULL,
+                   ^
+2015-09-16 09:25:15 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:25:23 ERROR  : ERROR:  syntax error at or near "integer"
+LINE 3:   "shipid" integer,
+                   ^
+2015-09-16 09:25:56 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:26:02 ERROR  : ERROR:  relation "sships" does not exist
+2015-09-16 09:26:06 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:27:19 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:27:28 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:29:01 ERROR  : ERROR:  relation "weapons" does not exist
+2015-09-16 09:30:55 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 09:38:54 ERROR  : ERROR:  there is no unique constraint matching given keys for referenced table "Weapons"
+2015-09-16 09:45:10 ERROR  : ERROR:  there is no unique constraint matching given keys for referenced table "Weapons"
+2015-09-16 09:50:47 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 10:00:05 ERROR  : ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+2015-09-16 10:00:20 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 10:00:32 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 10:00:49 ERROR  : ERROR:  relation "ships" does not exist
+2015-09-16 10:03:03 ERROR  : ERROR:  foreign key constraint "Mounts_name_fkey" cannot be implemented
+DETAIL:  Key columns "name" and "weapon_id" are of incompatible types: character varying and integer.
+2015-09-16 10:03:14 ERROR  : ERROR:  foreign key constraint "Mounts_name_fkey" cannot be implemented
+DETAIL:  Key columns "name" and "weapon_id" are of incompatible types: character varying and integer.
+2015-09-16 10:05:01 ERROR  : ERROR:  there is no unique constraint matching given keys for referenced table "Weapons"
+2015-09-16 10:06:39 ERROR  : ERROR:  there is no unique constraint matching given keys for referenced table "Weapons"
+2015-09-16 10:08:11 ERROR  : ERROR:  there is no unique constraint matching given keys for referenced table "Weapons"
+2015-09-16 10:08:33 ERROR  : ERROR:  there is no unique constraint matching given keys for referenced table "Weapons"
+2015-09-23 09:17:30 ERROR  : ERROR:  relation "ships" does not exist
+LINE 1: INSERT INTO Ships (id,name,shields,armour,integrity) VALUES ...
+                    ^
+2015-09-23 09:20:13 ERROR  : ERROR:  relation "ships" does not exist
+LINE 1: INSERT INTO Ships (id,name,shields,armour,integrity) VALUES ...
+                    ^
+2015-09-23 09:20:20 ERROR  : ERROR:  relation "ships" does not exist
+LINE 1: INSERT INTO Ships (id,name,shields,armour,integrity) VALUES ...
+                    ^
+2015-09-23 09:20:53 ERROR  : ERROR:  column "Nadine" does not exist
+LINE 1: ...hips (id,name,shields,armour,integrity) VALUES (1,"Nadine",1...
+                                                             ^
+2015-09-23 09:22:08 ERROR  : ERROR:  column "Nadine" does not exist
+LINE 1: ...hips (id,name,shields,armour,integrity) VALUES (1,"Nadine",1...
+                                                             ^
+2015-09-23 09:23:17 ERROR  : ERROR:  column "Nadine" does not exist
+LINE 1: ...hips (id,name,shields,armour,integrity) VALUES (1,"Nadine",1...
+                                                             ^
+2015-09-23 09:24:17 ERROR  : ERROR:  column "Nadine" does not exist
+LINE 1: ...hips (id,name,shields,armour,integrity) VALUES (1,"Nadine",1...
+                                                             ^
+2015-09-23 09:24:54 ERROR  : ERROR:  column "Skyler" does not exist
+LINE 1: ...rmour,integrity) VALUES (1,'Nadine',178,34,66),(2,"Skyler",9...
+                                                             ^
+2015-09-23 09:27:06 ERROR  : ERROR:  relation "Ships" does not exist
+LINE 1: INSERT INTO "Ships" (id,name,shields,armour,integrity) VALUE...
+                    ^
+2015-09-23 09:31:22 ERROR  : ERROR:  relation "ships" does not exist
+LINE 1: SELECT * from Ships WHERE name = 'Oleg'
+                      ^
+2015-09-23 09:31:30 ERROR  : ERROR:  syntax error at or near "'Ships'"
+LINE 1: SELECT * from 'Ships' WHERE name = 'Oleg'
+                      ^
+2015-09-23 09:32:39 ERROR  : ERROR:  column reference "name" is ambiguous
+LINE 1: SELECT * from Ships,mounts WHERE name = 'Oleg'
+                                         ^
+2015-09-23 09:32:59 ERROR  : ERROR:  column reference "name" is ambiguous
+LINE 1: SELECT * from ships,mounts WHERE name = 'Oleg'
+                                         ^
+2015-09-23 09:42:23 ERROR  : ERROR:  syntax error at or near "where"
+LINE 1: ...on, BUFFERS off, TIMING off )SELECT * FROM ships, where name...
+                                                             ^
+2015-09-30 09:31:29 ERROR  : ERROR:  invalid input syntax for integer: "test"
+LINE 2: update ships set shields = 'test' where name = 'Oleg'
+                                   ^
+2015-10-07 08:56:57 ERROR  : ERROR:  syntax error at or near "integer"
+LINE 1: integer
+        ^
+2015-10-08 14:56:48 ERROR  : ERROR:  cannot drop table characters because other objects depend on it
+DETAIL:  constraint owns_name_fkey on table owns depends on table characters
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-10-08 15:12:58 ERROR  : ERROR:  relation "owns" already exists
+2015-10-08 15:16:10 ERROR  : ERROR:  cannot drop table users because other objects depend on it
+DETAIL:  constraint fk_stores_user_name on table stores depends on table users
+constraint owns_user_name_fkey on table owns depends on table users
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-11-30 16:27:52 ERROR  : ERROR:  syntax error at or near "PRIMAIRY"
+LINE 2: (bootnummer INTEGER PRIMAIRY KEY NOT NULL, bootnaam TEXT, ka...
+                            ^
+2015-11-30 16:41:46 ERROR  : ERROR:  syntax error at or near "WHERE"
+LINE 3: WHERE
+        ^
+2015-11-30 16:42:01 ERROR  : ERROR:  syntax error at or near "WHERE"
+LINE 3: WHERE name = 'Robert'
+        ^
+2015-11-30 16:44:43 ERROR  : ERROR:  syntax error at or near "WHERE"
+LINE 3: WHERE roepnaam = 'Robert'
+        ^
+2015-11-30 16:44:48 ERROR  : ERROR:  syntax error at or near "WHERE"
+LINE 3: WHERE
+        ^
+2015-11-30 17:06:11 ERROR  : ERROR:  syntax error at or near "FOREIGN"
+LINE 4: FOREIGN KEY (kapiteinnummer) REFERENCES kapitein (kapiteinnu...
+        ^
+2015-12-04 12:37:12 ERROR  : ERROR:  column "datum" is of type date but expression is of type integer
+LINE 13: INSERT INTO recipe (rid, datum, pid) VALUES (11, 18-11-2015,...
+                                                          ^
+HINT:  You will need to rewrite or cast the expression.
+2015-12-04 12:37:29 ERROR  : ERROR:  column "datum" is of type date but expression is of type integer
+LINE 14: (12, 20-11-2015,102),
+              ^
+HINT:  You will need to rewrite or cast the expression.
+2015-12-04 13:15:31 ERROR  : ERROR:  update or delete on table "patient" violates foreign key constraint "recipe_pid_fkey1" on table "recipe"
+DETAIL:  Key (pid)=(102) is still referenced from table "recipe".
+2015-12-04 13:23:04 ERROR  : ERROR:  syntax error at or near "ON"
+LINE 4: ON UPDATE CASCADE;
+        ^
+2015-12-14 16:33:22 ERROR  : ERROR:  operator does not exist: integer => integer
+LINE 3: WHERE SP => 4
+                 ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2015-12-14 16:35:09 ERROR  : ERROR:  syntax error at or near "USING"
+LINE 3: USING les l
+        ^
+2015-12-14 16:39:59 ERROR  : ERROR:  syntax error at or near "WHERE"
+LINE 3: WHERE (groep = '1B' AND l.docID = d.docID) AND (WHERE v.vakn...
+                                                        ^
+2015-12-14 16:42:34 ERROR  : ERROR:  syntax error at end of input
+LINE 3: WHERE voornaam like S%
+                              ^
+2015-12-14 16:50:56 ERROR  : ERROR:  aggregate functions are not allowed in WHERE
+LINE 3: WHERE COUNT(d.docID = l.docID) >= 1
+              ^
+2015-12-14 16:51:16 ERROR  : ERROR:  column "d.achternaam" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT d.achternaam
+               ^
+2015-12-14 16:53:00 ERROR  : ERROR:  argument of HAVING must be type boolean, not type bigint
+LINE 4: HAVING COUNT(d.docID = l.docID)
+               ^
+2015-12-14 16:53:26 ERROR  : ERROR:  argument of HAVING must be type boolean, not type integer
+LINE 4: HAVING l.docID
+               ^
+2015-12-14 17:10:26 ERROR  : ERROR:  syntax error at or near "WHERE"
+LINE 7: WHERE d.docID = l.docID AND l.vakcode = 'SKL'
+        ^
+2015-12-14 17:10:34 ERROR  : ERROR:  missing FROM-clause entry for table "d"
+LINE 7: SELECT d.achternaam
+               ^
