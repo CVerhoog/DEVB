@@ -3,7 +3,7 @@ cd "C:\Users\Corné verhoog\Documents\GitHub\devA"
 @echo adds changed files to commit
 git init
 git add *
-git commit -m "commitDes"
+git commit -m 'commitDes'
 @echo pushes commit to server
 git push
 
